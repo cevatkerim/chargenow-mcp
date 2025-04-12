@@ -1,0 +1,27 @@
+{
+  "name": "chargenow-mcp",
+  "description": "MCP server for finding ChargeNow EV charging points.",
+  "bin": {
+    "chargenow-mcp": "./build/index.js"
+  },
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "node-fetch": "^3.3.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/node-fetch": "^2.6.11",
+    "typescript": "^5.3.3"
+  }
+}
