@@ -4,7 +4,7 @@
   "bin": {
     "chargenow-mcp": "./build/index.js"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "main": "./build/index.js",
   "scripts": {
